@@ -59,9 +59,13 @@ class App extends Component {
           textChange={this.onTextChange} 
           sizeChange={this.onFontSizeChange}
           searchReset={this.onSearchReset}
-          />
+        />
         <Scroll>
-          <CardList fonts={filteredFonts} textfield={textfield} size={this.state.size}/>
+          <CardList 
+            fonts={filteredFonts} 
+            textfield={textfield} 
+            size={this.state.size}
+          />
         </Scroll>
         <Footer />
       </div>
