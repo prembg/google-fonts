@@ -1,3 +1,15 @@
+This project is made with ReactJS. It is a clone of google fonts page. It uses the Google fonts API. It is still now finished, and the fonts are loading very slowly.
+
+Dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.8.0",
+    "react-scripts": "^3.3.0",
+    "tachyons": "^4.11.1",
+    "webfontloader": "^1.6.28"
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
